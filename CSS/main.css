@@ -1,7 +1,7 @@
 body {
   background-image: url(../Image/VOTING.jpg); position: absolute;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
 }
 
@@ -26,6 +26,12 @@ body {
 
 .appcontent {
   color: white;
+}
+
+.welcome {
+  color: white;
+  padding-left: 5px;
+  margin-top: 10px;
 }
 
 .card {
@@ -74,8 +80,8 @@ footer {
   text-align: center;
 }
 .signhead h2 {
-color: #125404;
-font-size: 20px;
+color: #32b215;
+font-size: 40px;
 }
 .signhead p {
   color: white;
