@@ -60,6 +60,10 @@ body {
 footer {
   clear: both;
   text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
   padding-top: 5px;
 }
 
@@ -145,3 +149,18 @@ font-size: 40px;
 
 input[type=submit]:hover {
     background-color: #57ea35;
+}
+
+.signer a {
+  color: #125404;
+  text-decoration: none;
+}
+.signer a:hover {
+  color: lime;
+}
+.signer p {
+  text-align: center;
+}
+.signer p i {
+  color: grey;
+}
