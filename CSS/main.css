@@ -21,12 +21,49 @@ body {
   font-style: italic;
   font-size: 20px;
   text-decoration: none;
+  padding-left: 10px;
 }
 
 .appcontent {
   color: white;
 }
 
-footer {
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
   text-align: center;
+  border: solid 2px;
+  border-color: white;
+  border-radius: 2em;
+  padding: 25px;
+}
+
+.card h1 {
+  font-style: italic;
+  font-family: monospace;
+  background-color: green;
+  border-radius: 2.5em;
+}
+
+.card a {
+  color: #93040b;
+  font-size: 20px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+.leftpanel {
+  width: 950px;
+  float: left;
+  border: solid 1px green;
+  padding: 10px;
+}
+
+.rightpanel {
+  width: 400 px;
+  float: right;
 }
