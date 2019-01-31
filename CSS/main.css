@@ -1,3 +1,32 @@
 body {
-  background-image: url(../Image/photos8.jpg); position: absolute;
+  background-image: url(../Image/VOTING.jpg); position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+.container {
+  margin: 30px;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+
+.apphead a {
+  float: left;
+  background: green;
+  width: 100%;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.appcontent {
+  color: white;
+}
+
+footer {
+  text-align: center;
 }
