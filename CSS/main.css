@@ -172,6 +172,7 @@ input[type=submit]:hover {
 
 /*User Dashboard*/
 .containeruser {
+  clear: both;
   color: white;
   background: black;
   opacity: 0.9;
@@ -190,4 +191,46 @@ table, th, td{
 td {
   height: 50px;
   vertical-align: bottom;
+}
+
+.dropbuttons {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.otherlinks {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-bottom: 17px;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 10px 14px;
+  display: block;
+}
+
+.drop-content a:hover {background-color: grey;}
+
+.otherlinks:hover .drop-content {
+  display: block;
+}
+
+.otherlinks:hover .dropbuttons {
+  background-color: #3e8e41;
 }
