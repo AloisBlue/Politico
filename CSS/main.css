@@ -271,6 +271,18 @@ td {
 }
 
 /*Buttons on Admin*/
+.table {
+  width: 750px;
+  float: left;
+  background-color: black
+}
+
+.officeright {
+  width: 400px;
+  float: right;
+  background-color: black;
+}
+
 .btn {
     border-radius: 2px;
     border: none;
