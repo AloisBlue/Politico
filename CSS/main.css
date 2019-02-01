@@ -269,3 +269,34 @@ td {
 .containeruser h3 {
   color: red;
 }
+
+/*Buttons on Admin*/
+.btn {
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+}
+.edit{
+  background-color: #00bfff;
+}
+.edit:hover {
+  background-color: black;
+}
+
+.delete{
+  background-color:  red;
+}
+.delete:hover {
+  background-color: #000000;
+}
+.row {
+  background-color: #00bfff;
+}
+.row:hover {
+  background-color: black;
+  color: white;
+}
