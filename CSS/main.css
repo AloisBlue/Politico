@@ -1,7 +1,7 @@
 body {
   background-image: url(../Image/VOTING.jpg); position: absolute;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
 }
 
@@ -26,6 +26,12 @@ body {
 
 .appcontent {
   color: white;
+}
+
+.welcome {
+  color: white;
+  padding-left: 5px;
+  margin-top: 10px;
 }
 
 .card {
@@ -54,6 +60,7 @@ body {
 footer {
   clear: both;
   text-align: center;
+  padding-top: 5px;
 }
 
 .leftpanel {
@@ -67,3 +74,74 @@ footer {
   width: 400 px;
   float: right;
 }
+
+/* Sign up and log in */
+.signhead {
+  text-align: center;
+}
+.signhead h2 {
+color: #32b215;
+font-size: 40px;
+}
+.signhead p {
+  color: white;
+}
+
+.signer {
+  border-radius: 5px;
+  background-color: #fff3ee;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.signer label {
+  width: 100%;
+  display: block;
+  font-weight: lighter;
+  line-height: 0.6;
+  color: #000;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 1px #fff;
+  margin: 4px;
+}
+
+.signer input[type=text] {
+  width: 100%;
+  padding: 5px; 8px;
+  font-size: 1.6em;
+  color: black;
+  border: #51d633 1px solid;
+  background-color: white;
+  -webkit border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.signer input[type=password] {
+  width: 100%;
+  padding: 5px; 8px;
+  font-size: 1.6em;
+  color: black;
+  border: #51d633 1px solid;
+  background-color: white;
+  -webkit border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.signer input[type=submit] {
+    width: 100%;
+    background-color: #125404;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #57ea35;
