@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>User Page</title>
+    <title>Apply Office</title>
     <link rel="stylesheet" type="text/css" href="../CSS/main.css" media="screen">
   </head>
   <body>
@@ -22,34 +22,41 @@
     <div class="otherlinks">
       <button class="dropbuttons">GO TO</button>
       <div class="drop-content">
-      <a href="../HTML/userpage.html">PARTIES</a>
-      <a href="../HTML/aspirantsview.html">ASPIRANTS</a>
-      <a href="../HTML/vote.html">VOTE!!</a>
+        <a href="../HTML/userpage.html">PARTIES</a>
+        <a href="../HTML/aspirantsview.html">ASPIRANTS</a>
+        <a href="../HTML/vote.html">VOTE!!</a>
     </div>
 </div>
 
     <div class="containeruser">
     <div class="signhead">
-      <h2>Dashboard</h2>
-      <p>All user activities can be followed from this page</p>
+      <h2>POLITICIAN FORUM</h2>
+      <p>This is for all users who wishes to vie for various offices</p>
     </div>
-    <h3>VOTING</h3>
+    <h3>Apply for an Office</h3>
 
-    <h4>Enter the office you want to vote for</h4>
+    <h4>Select the office you want to run for</h4>
               <select class="selectoffice" name="" id="off">
                 <option value="1">President</option>
                 <option value="2">Governor</option>
                 <option value="3">MCA</option>
+                <option value="4">Senator</option>
               </select>
 
-    <h4>Select the aspirants name from below</h4>
-                <select class="selectasp" name="" id="asp">
-                  <option value="1">Alois Mburu</option>
-                  <option value="2">Alex Blue</option>
-                  <option value="3">John Doe</option>
+    <h4>Enter your name here: </h4>
+    <form class="" action="#" method="post">
+      <input type="text" name="name" value="" placeholder="Enter your name">
+    </form>
+
+    <h4>Select the party you are using</h4>
+                <select class="selectpart" name="" id="part">
+                  <option value="1">Maendeleo</option>
+                  <option value="2">Kenya Moja</option>
+                  <option value="3">Chama cha Matendo</option>
               </select><br>
               <br>
-               <input type="button" name="" onclick="send()" value="Submit Vote">
+               <input type="button" name="" onclick="send()" value="Submit">
+
    </div>
 
     <footer>&copy; Copyright 2019 Politico Systems Inc.</footer>
