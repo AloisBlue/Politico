@@ -46,11 +46,12 @@ body {
   border-color: white;
   border-radius: 1em;
   padding: 2px;
+  font-style: italic;
+  font-family: sans-serif;
 }
 
 .pic {
   border: dotted 1px;
-  border-radius: 2em;
   padding-left: 6px;
 }
 
@@ -75,6 +76,16 @@ body {
 .card a {
   color: #93040b;
   font-size: 20px;
+}
+
+.cardlinks a {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 2.5em;
+  padding: 5px;
+}
+.cardlinks a:hover {
+  background-color: green;
 }
 
 footer {
@@ -238,9 +249,14 @@ table, th, td{
   border: 1px solid red;
 }
 
+th, td {
+  padding: 5px;
+}
+
 td {
   height: 50px;
   vertical-align: bottom;
+  text-align: center;
 }
 
 .dropbuttons {
@@ -330,4 +346,136 @@ td {
 .row:hover {
   background-color: black;
   color: white;
+}
+
+/*formformats*/
+.formformat {
+  border-radius: 3px;
+  background-color: #fff3ee;
+  padding: 16px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.formformat label {
+  width: 100%;
+  display: block;
+  font-weight: lighter;
+  line-height: 0.6;
+  color: #000;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 1px #fff;
+  margin: 4px;
+}
+
+.formformat input[type=text] {
+  width: 350px;
+  padding: 3px; 6px;
+  font-size: 1.6em;
+  color: black;
+  border: #51d633 1px solid;
+  background-color: white;
+  -webkit border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.formformat input[type=submit] {
+    width: 350px;
+    background-color: #125404;
+    color: white;
+    padding: 10px 14px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #57ea35;
+}
+
+.formformat a {
+  color: #125404;
+  text-decoration: none;
+}
+.formformat a:hover {
+  color: lime;
+}
+.formformat p {
+  text-align: center;
+}
+.formformat p i {
+  color: grey;
+}
+
+/*aspirants formats*/
+.aspformat {
+  border-radius: 3px;
+  background-color: #fff3ee;
+  padding: 16px;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.aspformat select {
+  width: 100%;
+  border: #51d633 1px solid;
+   padding: 3px; 6px;
+  font-size: 1.6em;
+  border-radius: 2px;
+}
+
+.aspformat h4 {
+  width: 100%;
+  display: block;
+  font-weight: lighter;
+  line-height: 0.6;
+  color: #000;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 1px #fff;
+  margin: 4px;
+}
+
+.aspformat input[type=text] {
+  width: 100%;
+  padding: 3px; 6px;
+  font-size: 1.6em;
+  color: black;
+  border: #51d633 1px solid;
+  background-color: white;
+  -webkit border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.aspformat input[type=submit] {
+    width: 100%;
+    background-color: #125404;
+    color: white;
+    padding: 10px 14px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #57ea35;
+}
+
+.aspformat a {
+  color: #125404;
+  text-decoration: none;
+}
+.aspformat a:hover {
+  color: lime;
+}
+.aspformat p {
+  text-align: center;
+}
+.aspformat p i {
+  color: grey;
 }
