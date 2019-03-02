@@ -479,3 +479,6 @@ input[type=submit]:hover {
 .aspformat p i {
   color: grey;
 }
+.errors {
+  color: #ae5856;
+}
