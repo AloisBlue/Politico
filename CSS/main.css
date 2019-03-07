@@ -42,12 +42,12 @@ body {
 }
 
 .para {
-  border: solid 1px;
-  border-color: white;
+  border: solid 1px white;
   border-radius: 1em;
   padding: 2px;
   font-style: italic;
   font-family: sans-serif;
+  width: 73%;
 }
 
 .pic {
@@ -101,7 +101,7 @@ footer {
 }
 
 .leftpanel {
-  width: 800px;
+  width: 1200px;
   float: left;
   border: solid 1px green;
   padding: 10px;
@@ -109,7 +109,7 @@ footer {
 }
 
 .rightpanel {
-  width: 400 px;
+  width: 300px;
   float: right;
   background: black;
 }
@@ -207,17 +207,15 @@ input[type=submit]:hover {
   width: 200px;
   float: left;
   text-align: center;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
 }
 .navbar a {
-  color: red;
+  color: white;
   text-decoration: none;
   font-size: 22px;
   font-style: italic;
 }
 .navbar #admin {
-  background-color: red;
+  background-color: green;
   cursor: pointer;
   color: white;
   border-right: 2px solid white;
@@ -307,13 +305,13 @@ td {
 
 /*Buttons on Admin*/
 .table {
-  width: 750px;
+  width: 49%;
   float: left;
   background-color: black
 }
 
 .officeright {
-  width: 400px;
+  width: 49%;
   float: right;
   background-color: black;
 }
@@ -345,6 +343,10 @@ td {
 }
 .row:hover {
   background-color: black;
+  color: white;
+}
+.row a {
+  text-decoration: none;
   color: white;
 }
 
@@ -481,4 +483,22 @@ input[type=submit]:hover {
 }
 .errors {
   color: #ae5856;
+}
+#allerrors {
+  text-align: center;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.white {
+  color: white;
+  padding: 2px;
+  margin: 2px;
+}
+
+.confirm {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
 }

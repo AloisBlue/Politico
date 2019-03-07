@@ -1,5 +1,5 @@
 redirect = () => {
-  window.location="file:///home/blue/PoliticoDC/Politico/HTML/userpage.html"
+  window.location="file:///home/blue/PoliticoDC/Politico/HTML/confirmemail.html"
 }
 window.onsubmit = function userSignup(e) {
   e.preventDefault();

@@ -8,7 +8,7 @@
   </head>
   <body>
      <div class="apphead">
-      <a href="index.html"><h1>POLITICO</h1></a>
+      <a href="userpage.html"><h1>POLITICO</h1></a>
     </div>
     <div class="welcome">
       <h3>Alois Blue</h3>
@@ -35,8 +35,8 @@
     </div>
     <h3>Admin can create, edit or delete parties and offices</h3>
 
-    <h3>Available parties</h3>
     <div class="table">
+      <h3>Available Parties</h3>
         <section>
 
                 <div id="table">
@@ -65,33 +65,50 @@
                     <td><button class="btn edit">Edit</button> </td>
                     <td><button class="btn delete">Delete</button></td>
                   </tr>
-                  <tr>
-                    <td>VoteKenya</td>
-                    <td><img src="" alt=""> </td>
-                    <td><button class="btn edit">Edit</button> </td>
-                    <td><button class="btn delete">Delete</button></td>
-                  </tr>
                 </table>
                 <div class="center">
-                  <button class="btn row">Add Party</button>
+                  <button class="btn row"><a href="../HTML/registerpartyform.html">Add Party</a></button>
                 </div>
                 </div>
         </section>
       </div>
 
       <div class="officeright">
-      <div class="formformat">
-        <h3>Add New Office</h3>
-        <form class="" action="#" method="post">
-          <label for="">Office name</label><br>
-          <input type="text" name="name" value="" placeholder="Enter new office name"><br>
-          <label for="">Description(optional)</label><br>
-          <input type="text" name="" placeholder="Give description"><br>
-          <br>
-          <br>
-          <input type="submit" name="" value="Submit">
-        </form>
-      </div>
+        <h3>Registered Offices</h3>
+            <section>
+
+                    <div id="table">
+                         <table id="offices">
+                      <tr>
+                        <th>Office Name</th>
+                        <th>Type</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                      </tr
+                      <tr>
+                        <td>President</td>
+                        <td>National</td>
+                        <td><button class="btn edit">Edit</button> </td>
+                        <td><button class="btn delete">Delete</button></td>
+                      </tr>
+                      <tr>
+                        <td>Governor</td>
+                        <td>Regional</td>
+                        <td><button class="btn edit">Edit</button> </td>
+                        <td><button class="btn delete">Delete</button></td>
+                      </tr>
+                      <tr>
+                        <td>MCA</td>
+                        <td>Remote</td>
+                        <td><button class="btn edit">Edit</button> </td>
+                        <td><button class="btn delete">Delete</button></td>
+                      </tr>
+                    </table>
+                    <div class="center">
+                      <button class="btn row"><a href="../HTML/registerofficeform.html">Register Office</a></button>
+                    </div>
+                    </div>
+            </section>
     </div>
    </div>
 

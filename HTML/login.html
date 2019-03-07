@@ -5,29 +5,36 @@
     <meta charset="utf-8">
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="../CSS/main.css" media="screen">
+    <script type="text/javascript" src="../Javascript/login.js"></script>
   </head>
   <body>
      <div class="apphead">
-      <a href="index.html"><h1>POLITICO</h1></a>
+      <a href="../main.html"><h1>POLITICO</h1></a>
     </div>
     <div class="welcome">
       <h3>Welcome to Politico!!!</h3>
     </div>
+    <div class="containeruser">
     <div class="signhead">
       <h2>Login</h2>
       <p>Log into your Politico account</p>
     </div>
+    <div class="errors" id="allerrors"></div>
 
     <div class="signer">
-      <form id="loginForm" action="userpage.html">
+      <form method="post" id="loginForm">
       <label for="email">Email</label>
       <input type="text" id="email" name="email" placeholder="Enter your email address or Id no.">
+      <div class="errors" id="erremail"></div>
 
       <label for="password">Password</label>
       <input type="password" id="password" name="password" placeholder="Enter your password please">
+      <div class="errors" id="errpass"></div>
       <input type="submit" value="Login">
     </form>
-      <a href="#"><p><b>Forgot password ?</b></a><i> Don't worry</i></p>
+      <a href="forgotpassword.html"><p><b>Forgot password ?</b></a><i> Don't worry</i></p>
+      <p><i>or </i><a href="signup.html"><b>Sign up</b><a></p>
+    </div>
     </div>
 
     <footer>&copy; Copyright 2019 Politico Systems Inc.</footer>

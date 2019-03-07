@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css" media="screen">
+  </head>
+  <body>
+    <div class="apphead">
+     <a href="userpage.html"><h1>POLITICO</h1></a>
+   </div>
+   <div class="welcome">
+     <h3>Alois Blue</h3>
+   </div>
+
+   <div class="navbar">
+     <a href="../HTML/admin.html" id="admin">Admin</a>
+     <a href="../HTML/applyoffice.html" id="applyoffice">Apply Office</a>
+   </div>
+
+   <div class="otherlinks">
+     <button class="dropbuttons">GO TO</button>
+     <div class="drop-content">
+       <a href="../HTML/userpage.html">PARTIES</a>
+       <a href="../HTML/aspirantsview.html">ASPIRANTS</a>
+       <a href="../HTML/vote.html">VOTE!!</a>
+   </div>
+   </div>
+
+    <div class="containeruser">
+      <div class="signhead">
+        <h2>Add Party</h2>
+        <p>Register a new party</p>
+      </div>
+      <div class="errors" id="allerrors"></div>
+
+      <div class="signer">
+        <form method="post" id="addParty">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter the name of the party">
+        <div class="errors" id="errname"></div>
+
+        <label for="hqaddress">HQ Address</label>
+        <input type="text" id="hqaddress" name="hqaddress" placeholder="Enter the HQ address please">
+        <div class="errors" id="errhqaddress"></div>
+
+        <label for="logourl">Logo URL</label>
+        <input type="text" id="logourl" name="logourl" placeholder="Enter the logo url here">
+        <div class="errors" id="errlogourl"></div>
+        <input type="submit" value="Add Party">
+      </form>
+      </div>
+    </div>
+
+    <footer>&copy; Copyright 2019 Politico Systems Inc.</footer>
+  </body>
+</html>
